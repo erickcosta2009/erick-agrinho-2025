@@ -38,6 +38,12 @@
             text-decoration: underline;
         }
 
+        .Autoral{
+            color: #005c0f;
+            font-size: 8px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
         /* Seções */
         section {
             padding: 20px;
