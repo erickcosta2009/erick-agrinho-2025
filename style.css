@@ -188,8 +188,8 @@ ul {
 }
 
 .gallery img {
-    width: 200px;
-    height: 100px;
+    width: 400px;
+    height: 200px;
     border-radius: 8px;
     object-fit: cover;
     transition: transform 0.3s ease;
