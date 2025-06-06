@@ -246,14 +246,6 @@ footer {
     header h1 {
         font-size: 2rem;
     }
-    <style>
-    .social-icons a {
-        margin: 0 10px;
-        text-decoration: none;
-        color: #000; /* Cor padrão */
-    }
-    .social-icons a:hover {
-        color: #007bff; /* Cor ao passar o mouse */
-        </style>
+   
     }
     
