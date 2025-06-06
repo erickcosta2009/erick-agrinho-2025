@@ -255,7 +255,6 @@ footer {
     .social-icons a:hover {
         color: #007bff; /* Cor ao passar o mouse */
     }
-</style>
 
 <div class="social-icons">
     <a href="https://wa.me/SeuNumero" target="_blank">
@@ -268,4 +267,3 @@ footer {
         <i class="fab fa-linkedin"></i>
     </a>
 </div>
-}
