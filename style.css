@@ -250,3 +250,7 @@ footer {
    
     }
     
+.galeria{
+    justify-content: center;
+    align-items: center;
+}
