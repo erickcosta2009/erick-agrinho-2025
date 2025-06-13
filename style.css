@@ -24,19 +24,20 @@
 
 
 .creditos {
-  font-size: 5px;
-  margin-top: 6px;
-  max-width: 120px;
-  line-height: 1.2;
-  align-items: first baseline;
+  font-size: 14px;             /* Ajusta o tamanho da fonte para algo legível */
+  margin-top: 10px;            /* Dá um espaçamento adequado em cima */
+  max-width: 200px;            /* Ajusta a largura para que o texto não quebre demais */
+  line-height: 1.5;            /* Torna o espaçamento entre linhas mais confortável */
+  text-align: center;          /* Centraliza o texto */
+  margin-left: auto;           /* Garante que o elemento esteja centralizado */
+  margin-right: auto;          /* Garante que o elemento esteja centralizado */
 }
-
 
 .creditos a {
-  color: inherit;
-  text-decoration: none;
+  color: inherit;              /* Mantém a cor do link igual ao texto */
+  text-decoration: none;       /* Remove o sublinhado do link */
+  font-weight: bold;           /* Dá mais destaque ao link */
 }
-
 
 .acessibilidade button {
   font-size: 16px;
