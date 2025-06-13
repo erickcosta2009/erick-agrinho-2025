@@ -214,4 +214,21 @@ footer a img:hover {
         width: 10px;
         height: 10px;
     }
+    /* Estilo para o ícone de acessibilidade */
+.icone-acessibilidade {
+    width: 40px;   /* Largura do ícone */
+    height: 40px;  /* Altura do ícone */
+    object-fit: contain; /* Faz com que o ícone se ajuste ao tamanho sem distorção */
+}
+
+/* Para garantir que o botão em si tenha o mesmo tamanho */
+button.abnace {
+    width: 40px;   /* Largura do botão */
+    height: 40px;  /* Altura do botão */
+    padding: 0;    /* Remove o padding extra */
+    background-color: transparent; /* Fundo transparente */
+    border: none;  /* Remove a borda */
+    cursor: pointer; /* Cursor em forma de mão */
+}
+
 }
