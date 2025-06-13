@@ -28,7 +28,7 @@
   margin-top: 10px;            /* Dá um espaçamento adequado em cima */
   max-width: 200px;            /* Ajusta a largura para que o texto não quebre demais */
   line-height: 1.5;            /* Torna o espaçamento entre linhas mais confortável */
-  text-align: center;          /* Centraliza o texto */
+  justify-content: left;
   margin-left: auto;           /* Garante que o elemento esteja centralizado */
   margin-right: auto;          /* Garante que o elemento esteja centralizado */
 }
