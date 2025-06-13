@@ -5,6 +5,163 @@
     box-sizing: border-box;
 }
 
+.acessibilidade {
+  position: relative;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+.acessibilidade p {
+  margin: 4px 0 0 0;
+  font-size: 5px;
+  text-align: center;
+  line-height: 1.2;
+}
+
+
+.creditos {
+  font-size: 10px;
+  margin-top: 6px;
+  max-width: 120px;
+  line-height: 1.2;
+}
+
+
+.creditos a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+.acessibilidade button {
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+
+.abnace {
+   all: unset;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent !important;
+  transition: transform 0.3s ease;
+  max-width: 120px;
+  text-align: center;
+}
+
+
+.abnace button{
+    background-color:transparent;
+}
+
+
+.abnace:hover{
+transform: scale(1.2);
+cursor: pointer;
+}
+.abnace img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid rgb(52, 78, 50);
+  border: 1px solid rgb(31, 77, 37);
+  border-radius: 100%;
+}
+
+
+
+
+.menu {
+  margin-top: 30px;
+  display: none;
+  position: absolute;
+  background-color: #f0fff0;
+  border: 2px solid #2d551d;
+  padding: 10px;
+  border-radius: 12px;
+  z-index: 1000;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  width: max-content;
+}
+
+
+.menu.ativo {
+  display: block;
+}
+
+
+.botao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 6px 0;
+  padding: 10px 12px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(45, 94, 45);
+  color: white;
+  width: 100%;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.botao:hover {
+  background-color: rgb(34, 72, 34);
+}
+
+
+.botao img {
+  margin-right: 6px;
+  width: 18px;
+  height: 18px;
+}
+
+
+.acessibilidade p {
+  margin-top: 6px;
+  font-size: 5px;
+  line-height: 1.4;
+  text-align: center;
+  color: #333;
+}
+
+
+
+
+  .contraste-ativo {
+    background-color: black !important;
+    color: rgb(251, 255, 0) !important;
+  }
+
+
+  .contraste-ativo button {
+    background-color: #1d1919 !important;
+    color: rgb(238, 255, 0) !important;
+  }
+
+
+  .contraste-ativo a,
+.contraste-ativo span{
+  color: rgb(251, 255, 0) !important;
+}
+
+
+.contraste-ativo h1, .contraste-ativo h2, .contraste-ativo h3, .contraste-ativo p{
+  color: rgb(255, 255, 255);
+}
+
 /* Definir a fonte padrão do corpo */
 body {
     font-family: 'Arial', sans-serif;
